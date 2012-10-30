@@ -7,7 +7,12 @@ Requirements
 ============
 
 - Python
-- MongoDB (for session information, logging, and caching)
+- MongoDB
+    - Message queueing (build and send)
+    - Session information (HTTP)
+    - Authentication information
+    - Logging
+    - Simple Caching
 - Motor
 
 Planning stage!
